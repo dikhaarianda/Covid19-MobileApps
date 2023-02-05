@@ -1,0 +1,4 @@
+db host: localhost
+db name: id19932644_mobiledb
+db user: id19932644_mobile
+password: BFI&cI4C{|c1XcUN

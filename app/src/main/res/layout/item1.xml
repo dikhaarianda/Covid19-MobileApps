@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_shape"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:background="@drawable/shape_item1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/txt_continent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_weight="25"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeMaxTextSize="20dp"
+        android:text="Asia"
+        android:textColor="@color/green"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_number_cases"
+        android:textSize="16sp"
+        android:layout_weight="25"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cases"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_cases"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_weight="25"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="180.000.000"
+        android:textColor="@color/yellow"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_number_death"
+        android:textSize="16sp"
+        android:layout_weight="25"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Death"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_death"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_weight="25"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="180.000.000"
+        android:textColor="@color/red"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_number_recovered"
+        android:textSize="16sp"
+        android:layout_weight="25"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recoved"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_recovered"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_weight="25"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="180.000.000"
+        android:textColor="@color/green"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/line" />
+
+
+</RelativeLayout>
